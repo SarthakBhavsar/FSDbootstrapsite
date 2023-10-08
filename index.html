@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <title>Learn Music Instruments</title>
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./logo-removebg-preview.png" alt="logo" style="width: 140px; height: 120px">
+                    Learn Music Instruments
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#instructors">Instructors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container text-center">
+            <h2>Unlock the World of Music</h2>
+            <p>Learn to play your favorite instruments with expert instructors.</p>
+            <a href="#courses" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Guitar Lessons</h3>
+                            <p class="card-text">Strings of Elegance: The Guitar Mastery Journey.</p>
+                            <a href="https://www.youtube.com/@justinguitar" class="btn btn-primary">Starting Learning</a>
+                            <a href="https://www.ultimate-guitar.com/" class="btn btn-secondary">Tabs and Chords</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Piano Lessons</h3>
+                            <p class="card-text">Learn to play the piano and create beautiful melodies.</p>
+                            <a href="#flute-details" class="btn btn-primary">Learn More</a>
+                            <a href="#enroll-flute" class="btn btn-secondary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instructors">
+        <div class="container">
+            <h2>Global Mentors</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">John Smith</h3>
+                            <p class="card-text">With over 10 years of experience, John is a master of the guitar.</p>
+                            <a href="#" class="btn btn-primary">Know more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Alice Johnson</h3>
+                            <p class="card-text">Alice is a virtuoso pianist ready to teach you the secrets of the piano.</p>
+                            <a href="#" class="btn btn-primary">Know more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to us.</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2023 Learn Music Instruments</p>
+        </div>
+    </footer>
+</body>
+</html>
